@@ -5,7 +5,9 @@
 	3. szövegigazítás középre
 */
 body {
-	
+	background-color: #009688;
+	color: white;
+	text-align: center;
   }
   
   a {
@@ -47,6 +49,12 @@ body {
 	transition: -webkit-transform ease-out 200ms;
 	transition: transform ease-out 200ms;
 	transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+	background-color: #ffc107;
+	color: white;
+	border-radius: 100%;
+	position: absolute;
+	text-align: center;
+	line-height: 80px;
   }
   
   .menu-open {
@@ -70,6 +78,11 @@ body {
 	transition: -webkit-transform 200ms;
 	transition: transform 200ms;
 	transition: transform 200ms, -webkit-transform 200ms;
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	appearance: block;
+	position: absolute;
   }
   
   .hamburger-1 {
@@ -140,8 +153,8 @@ body {
 			transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	-webkit-transition-duration: 400ms;
 			transition-duration: 400ms;
-	-webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
-			transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+	-webkit-transform: scale(1.0, 1.0) translate3d(0, 0, 0);
+			transform: scale(1.0, 1.0) translate3d(0, 0, 0);
 	cursor: pointer;
   }
   
@@ -187,4 +200,3 @@ body {
 	-webkit-transform: translate3d(320px, 0, 0);
 			transform: translate3d(320px, 0, 0);
   }
-  
